@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Article preview component</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./src/script.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <section class="image">
+        <picture>
+          <img src="./images/drawers.jpg" alt="image-drawers">
+        </picture>
+      </section>
+      <div class="wrapper">
+        <div class="content">
+          <article>
+            <h1>
+              Shift the overall look and feel by adding these wonderful touches to furniture in your home
+            </h1>
+            <h2>
+              Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+            </h2>
+          </article>
+        </div>
+        <div class="hide">
+          <div class="avatar">
+            <img src="./images/avatar-michelle.jpg" alt="avatar-michelle">
+          </div>
+          <div class="author">
+            <div class="details">
+              <h3 class="name">Michelle Appleton</h3>
+              <p class="date">28 Jun 2020</p>
+            </div>
+            <button class="shareButton" id="shareBtn" aria-label="show social links" onclick="hideOrShow()">
+              <img src="./images/icon-share.svg" alt="">
+            </button>
+          </div>
+        </div>
+        <div class="show" id="showLinks">
+          <div class="links">
+            <p>share</p>
+            <a href="###">
+              <img src="./images/icon-facebook.svg" alt="" aria-hidden="true">
+            </a>
+            <a href="###">
+              <img src="./images/icon-twitter.svg" alt="" aria-hidden="true">
+            </a>
+            <a href="###">
+              <img src="./images/icon-pinterest.svg" alt="" aria-hidden="true">
+            </a>
+          </div>
+          <button class="shareButton" id="shareBtn" aria-label="show social links" onclick="hideOrShow()">
+            <img src="./images/icon-share.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Marilisa Saldanha</a>.
+    </div>
+  </footer>
+
+</body>
+</html>
