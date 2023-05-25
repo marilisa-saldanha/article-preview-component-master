@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL](h)
+- [Solution URL](https://www.frontendmentor.io/solutions/article-preview-component-using-html-css-flexbox-and-javascript-NcE1iJKQM6)
+- [Live Site URL](https://marilisa-saldanha.github.io/article-preview-component-master/)
 
 ## My process
 
